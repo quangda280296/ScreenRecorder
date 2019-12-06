@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.chrisbanes.photoview.test" >
+4
+5    <uses-sdk
+5-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:11:5-15:86
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:13:22-53
+13        android:label="Tests for com.github.chrisbanes.photoview.test"
+13-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:15:22-84
+14        android:targetPackage="com.github.chrisbanes.photoview.test" />
+14-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:12:22-82
+15
+16    <application
+16-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:7:5-9:19
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] C:\Users\keban\.gradle\caches\transforms-2\files-2.1\46dd1bd52e70627d65ccd0a0ddae4e7b\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+18        android:debuggable="true" >
+18-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:8:9-60
+19-->C:\Users\keban\Desktop\Android Project\Screen Recorder\photoview\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5463408383055487164.xml:8:23-57
+20    </application>
+21
+22</manifest>

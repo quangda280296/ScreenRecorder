@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven {
+        url "https://jitpack.io"
+    }
+    maven {
+        url 'http://raw.github.com/saki4510t/libcommon/master/repository/'
+    }
+}
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.screen.recorder.screenrecorder"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 14
+        versionName "1.4"
+        multiDexEnabled true
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        flavorDimensions "versionCode"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':library')
+    implementation project(':photoview')
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    implementation rootProject.ext.dependencies["multidex"]
+    implementation rootProject.ext.dependencies["appcompat-v7"]
+    implementation rootProject.ext.dependencies["support-compat"]
+    implementation rootProject.ext.dependencies["constraint-layout"]
+    implementation rootProject.ext.dependencies["design"]
+    implementation rootProject.ext.dependencies["retrofit"]
+    implementation rootProject.ext.dependencies["converter-gson"]
+    implementation rootProject.ext.dependencies["firebase-messaging"]
+    implementation rootProject.ext.dependencies["firebase-analytics"]
+    implementation rootProject.ext.dependencies["facebook-android-sdk"]
+    implementation rootProject.ext.dependencies["audience-network-sdk"]
+    implementation rootProject.ext.dependencies["support-annotations"]
+    implementation rootProject.ext.dependencies["glide"]
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation('com.serenegiant:common:1.1.9') {
+        exclude module: 'support-v4'
+    }
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.airbnb.android:lottie:2.5.1'
+}
+apply plugin: 'com.google.gms.google-services'

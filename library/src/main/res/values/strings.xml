@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="store_notification_channel_id" translatable="false">fcm_store_channel</string>
+
+    <string name="play_store">Google Play Store</string>
+    <string name="notification">Notification</string>
+    <string name="noti_message">Let\'s see what\'s new today !</string>
+
+    <string name="update">Update</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+
+    <string name="title_share_file">Share via</string>
+    <string name="try_again_later">Maybe something wrong happend, please try again later !</string>
+
+    <string name="send_success">Send feedback successfully !</string>
+    <string name="send_failed">Send feedback failed, please try again</string>
+
+    <string name="share_error">Share error !</string>
+    <string name="share_cancel">Share cancelled !</string>
+    <string name="share_success">Share successfully !</string>
+    <string name="login_cancel">Login canceled</string>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="loading_ads">Loading ads, please wait...</string>
+    <string name="confirm_close">Are you sure want to exit app?</string>
+
+    <string name="some_text_to_share">Some text you would like to share...</string>
+    <string name="share_photo_to_fb">Share photo to Facebook</string>
+    <string name="install_fb_app_to_use">Please install Facebook app to use this function !</string>
+
+    <string name="created_by">Created by</string>
+    <string name="share_photo_to_fb_mess">Share photo to Facebook Messenger</string>
+    <string name="install_fb_mess_app_to_use">Please install FB Messenger to use this function!</string>
+
+    <string name="share_photo_to_insta">Share photo to Instagram</string>
+    <string name="install_insta_app_to_use">Please install Instagram app to use this function!</string>
+
+    <string name="share_to_zalo">Share photo to Zalo</string>
+    <string name="install_zalo_app_to_use">Please install ZALO to use this function!</string>
+
+    <string name="share_to_wechat">Share Photo to WeChat</string>
+    <string name="install_wechat_app_to_use">Please install WeChat to use this function!</string>
+
+    <string name="share_to_whatsapp">Share Photo to WhatsApp Messenger</string>
+    <string name="install_whatsapp_app_to_use">Please install WhatsApp Messenger to use this function!</string>
+
+    <string name="share_to_twiter">Share Photo to Twitter</string>
+    <string name="install_twitter_app_to_use">Please install Twitter to use this function!</string>
+
+    <string name="photo_created_by">Photo created by:</string>
+
+    <string name="share_to_sms">Share photo to SMS</string>
+    <string name="install_sms_app_to_use">Please install SMS app to use this function!</string>
+</resources>
