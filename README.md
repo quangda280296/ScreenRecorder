@@ -4,7 +4,7 @@
 Ứng dụng cho phép ghi màn hình và ghi âm trong khi quay màn hình với nhiều tùy chỉnh, chế độ và nút quay, chụp ảnh màn hình tiện dụng.
 
 ## Link app: 
-https://drive.google.com/open?id=1gj3zdHc0qBtP5jGOsa3HfG0AG4ztUG44
+[Demo](https://github.com/quangda280296/ScreenRecorder/blob/master/app/release/app-release.apk)
 
 ## Screenshots
 ![]
