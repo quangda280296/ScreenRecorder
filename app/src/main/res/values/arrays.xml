@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="menu">
-        <item>@string/show</item>
-        <item>@string/edit_name</item>
-        <item>@string/delete</item>
-        <item>@string/share</item>
-    </string-array>
-</resources>
